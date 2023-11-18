@@ -3,7 +3,7 @@ import React, { useState, useMemo } from "react";
 
 const MemoizedProps = () => {
   const [text, setText] = useState("");
-  const [length, setLength] = useState(0);
+  // const [length, setLength] = useState(0);
 
   const memoizedLength = useMemo(() => {
     // Memoize the length of the text

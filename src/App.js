@@ -9,6 +9,9 @@ import ExternalLibraries from "./useRef/ExternalLibraries";
 import ExpensiveComputation from "./useMemo/ExpensiveComputation";
 import MemoizedProps from "./useMemo/MemoizedProps";
 import MemoizedObject from "./useMemo/MemoizedObject";
+import MemoizedEventHandler from "./useCallback/MemoizedEventHandler";
+import CallbackWithDependencies from "./useCallback/CallbackWithDependencies";
+import PropDrilling from "./useCallback/PropDrilling";
 import "./App.css";
 
 function App() {
@@ -31,6 +34,12 @@ function App() {
       <MemoizedProps />
       <hr />
       <MemoizedObject />
+      <hr />
+      <MemoizedEventHandler />
+      <hr />
+      <CallbackWithDependencies />
+      <hr />
+      <PropDrilling />
     </div>
   );
 }
